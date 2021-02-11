@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Register page</title>
+   <style>
+        body {
+            font-family: cursive;
+            background-image: url(img/register.jpg);
+
+            border: 1px solid whitesmoke;
+            border-bottom: 10px;
+            box-shadow: 1px 7px 6px 5px gray;
+        }
+
+        header {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+
+        .input-container {
+            background-color: lightpink;
+            background-origin: 2px solid red;
+
+
+            border: 5px solid whitesmoke;
+            box-shadow: 1px 7px 6px 5px gray;
+
+            justify-content: center;
+
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .icon {
+            padding: 10px;
+            background: dodgerblue;
+            color: white;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+        }
+
+        .input-field:focus {
+            border: 2px solid dodgerblue;
+        }
+
+
+        .btn {
+            background-color: dodgerblue;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <a href="login.html" target="_blank">
+        <img src="img/privious.jpg" title="Go Back" style="position: sticky; height: 30px; width: 30px;">
+    </a>
+    <a href="ticketbooking.html" target="_blank">
+        <img src="img/nextbutton.jpg" title="Next Page" style="position: sticky; height: 30px; width: 30px;">
+    </a>
+
+    <form action="" style="max-width:500px;margin:auto">
+        <header>
+            <h2>Register Form</h2>
+
+        </header>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="First_name" name="usrnm">
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Last_name" name="usrnm">
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="Email" name="email">
+        </div>
+        <div class="input-container">
+            <i class="fa fa-phone icon"></i>
+            <input class="input-field" type="phonenumber" placeholder="Phone_number" name="psw">
+        </div>
+
+
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+
+
+
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+<div>
+    <button  type="submit" class="btn" >Register</button>
+    <a href="login.html" font-family: cursive;>Register</a>
+    
+</div>
+
+      
+    </form>
+
+</body>
+
+</html>
