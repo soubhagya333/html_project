@@ -1,0 +1,71 @@
+header {
+  color: darkred;
+  background-color: lightsalmon;
+  font-size: large;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: cursive;
+  background-image: url(img/register.jpg);
+
+  border: 1px solid whitesmoke;
+  border-bottom: 10px;
+  box-shadow: 1px 7px 6px 5px gray;
+}
+
+header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.input-container {
+  background-color: lightpink;
+  background-origin: 2px solid red;
+
+  border: 5px solid whitesmoke;
+  box-shadow: 1px 7px 6px 5px gray;
+
+  justify-content: center;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.icon {
+  padding: 14px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.btn {
+  background-color: dodgerblue;
+  font-family: monospace;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 510px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color: dodgerblue;
+}

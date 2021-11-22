@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css">
+
+  <title>login page</title>
+  <style>
+    h1 {
+      font-size: 50px;
+    }
+
+    .btn {
+      background-color: dodgerblue;
+      font-family: monospace;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 210px;
+      height: 50px;
+      opacity: 0.9;
+    }
+
+    .btn:hover {
+      opacity: 1;
+      background-color: dodgerblue;
+    }
+
+    .register {
+      background-color: thistle;
+      margin-top: 40px;
+      display: flex;
+    }
+
+    .center-screen {
+      display: flex;
+      background-image: url(img/blur.jpg);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 300px;
+      padding: 20px;
+      background-color: lightpink;
+      /* background-origin: 2px solid red; */
+      position: absolute;
+      top: 5%;
+      left: 40%;
+      height: 350px;
+      position: stickyS;
+
+      border: 5px solid whitesmoke;
+      box-shadow: 1px 7px 6px 5px gray;
+    }
+
+    .center-screen>div {
+      padding: 5px;
+      position: stickyS;
+    }
+
+    input {
+      height: 30px;
+      width: 200px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 15px;
+      font-family: cursive;
+    }
+
+    input ::placeholder {
+      text-align: center;
+      font-family: cursive;
+    }
+
+    .submit {
+      height: 39px;
+      width: 209px;
+      border-radius: 5px;
+      font-size: 20px;
+      font-family: cursive;
+    }
+
+    .submit:hover {
+      background-color: green;
+      color: white;
+    }
+
+    body {
+      background-image: url(img/loginbackground.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    div {
+      font-family: cursive;
+      color: whitesmoke;
+    }
+
+    /* a:hover{
+    margin-top: 10px;
+   
+} */
+    a {
+      color: whitesmoke;
+    }
+  </style>
+</head>
+<script src="js/script.js"></script>
+
+<body>
+  <a href="about.html" target="_blank">
+    <img src="img/privious.jpg" title="Go Back" style="position: sticky; height: 50px; width: 50px" />
+  </a>
+  <a href="bootstarpreg.html" target="_blank">
+    <img src="img/nextbutton.jpg" title="Next Page"
+      style="position: sticky; height: 50px; width: 50px; margin-left: 1670px;" />
+  </a>
+  <form>
+    <div class="center-screen">
+      <h1>Login Page</h1>
+      <div>
+        <input placeholder="Enter Name" name="user" id="user" type="text" />
+        <span id="msg"></span>
+      </div>
+      <div>
+        <input placeholder="password" name="password" id="password" type="password" />
+        <span id="msg"></span>
+      </div>
+
+      <div>
+        <input type="button" class="btn" value="submit" onclick="window.location.href='ticketbooking.html'" />
+      </div>
+
+      <a href="bootstarpreg.html" style="font-family: monospace; font-size: 20px; margin-top: 20px;">Register</a>
+    </div>
+  </form>
+</body>
+
+</html>
